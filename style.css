@@ -1,0 +1,57 @@
+body {
+  font-family: 'Arial';
+  background: linear-gradient(135deg, #ffe6f0, #fff0f5);
+  text-align: center;
+  margin: 0;
+  color: #444;
+}
+
+/* Titre principal */
+h1 {
+  color: #ff4da6;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+/* Image profil style diamant */
+img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 5px solid #ffb6d9;
+  box-shadow: 0 0 20px rgba(255, 77, 166, 0.4);
+  margin-top: 15px;
+}
+
+/* Sections */
+h2 {
+  color: #d63384;
+  margin-top: 30px;
+}
+
+/* Liste passions */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgba(255, 77, 166, 0.2);
+}
+
+/* Texte */
+p {
+  font-size: 16px;
+}
+
+/* effet “diamant brillant” */
+li:hover, img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
