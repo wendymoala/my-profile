@@ -1,0 +1,70 @@
+/* GENERAL */
+body {
+  background: linear-gradient(135deg, #ffe6f0, #ffd1dc);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* CENTER CONTAINER */
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* CARDS */
+.card-white {
+  background: white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+/* CENTER TEXT */
+.text-center {
+  text-align: center;
+}
+
+/* PROFILE IMAGE (ROUND) */
+.img-circle {
+  border-radius: 50%;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+/* PINK BUTTON LINK */
+.btn-pink {
+  display: inline-block;
+  background: #ff69b4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.btn-pink:hover {
+  background: #ff85c1;
+}
+
+/* LIST INLINE (SOCIAL NETWORKS) */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0 15px;
+}
+
+/* SPACING TEXT */
+#introduction p {
+  margin-bottom: 20px;
+}
